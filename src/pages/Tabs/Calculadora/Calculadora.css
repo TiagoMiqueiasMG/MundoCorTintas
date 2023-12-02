@@ -1,0 +1,186 @@
+.principal-container {
+    position: relative;
+    z-index: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #e9e9e9;
+    height: calc(100vh - 128px);
+    min-height: 1024px;
+    width: 100%;
+    padding: 15px;
+}
+
+.body-container {
+    z-index: -1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #e9e9e9;
+    height: 100%;
+    width: 100%;
+}
+
+.corpo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #e9e9e9;
+    width: 100%;
+    height: 100%;
+}
+
+
+.img {
+    width: 100%;
+    height: 60%;
+    object-fit: contain;
+}
+
+.input-cep {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 44px;
+    margin-bottom: 20px;
+}
+
+.input-cep input {
+    width: 65%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    box-sizing: border-box;
+}
+
+.input-cep button {
+    background-color: #91BF4B;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+    height: 44px;
+    width: 30%;
+}
+
+.input-cep button:hover {
+    background-color: #0056b3;
+}
+
+.input-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 44px;
+    margin-bottom: 20px;
+}
+
+.input-container input {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    box-sizing: border-box;
+    height: 44px;
+}
+
+.input-container input[type="text"][placeholder="Numero"] {
+    width: 47%;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    box-sizing: border-box;
+    height: 44px;
+    /* Ajusta a altura para ser igual à dos buttons */
+}
+
+.input-container input[type="text"][placeholder="Complemento"] {
+    width: 47%;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    box-sizing: border-box;
+    height: 44px;
+    /* Ajusta a altura para ser igual à dos buttons */
+}
+
+.button {
+    padding: 12px 20px;
+    /* Reduz o padding para diminuir a altura */
+    background-color: #91BF4B;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+    justify-content: center;
+    height: 44px;
+    width: 100%;
+
+}
+
+.button:hover {
+    background-color: #0056b3;
+}
+
+.buttom-calc {
+    width: 100%;
+    height: 44px;
+}
+
+.input-container input[type="text"][placeholder="Numero"] {
+    width: 20%;
+    /* Reduzi um pouco a largura para dar espaço ao complemento */
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    box-sizing: border-box;
+    height: 44px;
+}
+
+.input-container input[type="text"][placeholder="Complemento"] {
+    width: 80%;
+    /* Aumentei a largura para ocupar mais espaço */
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    box-sizing: border-box;
+    height: 44px;
+    margin-left: 5%;
+    /* Ajusta a altura para ser igual à dos buttons */
+}
+
+@media screen and (max-width: 320px) {}
+
+@media screen and (max-width: 375px) and (min-width: 320px) {}
+
+@media screen and (max-width: 425px) and (min-width: 375px) {}
+
+@media screen and (max-width: 768px) and (min-width: 425px) {}
+
+@media screen and (min-width: 768px) {
+    .principal-container {
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        min-height: 720px;
+        width: 100vw
+    }
+
+    .body-container {
+        padding: 5%;
+    }
+}
+
+@media screen and (max-width:1024px) and (min-width: 768px) {}
+
+@media screen and (min-width: 1024px) {}

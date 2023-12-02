@@ -1,0 +1,45 @@
+/* Base styles */
+
+* {
+    box-sizing: border-box;
+  }
+  
+  html,
+  body {
+    height: 100%;
+    width: 100%;
+  }
+  
+  body {
+    font-family: sans-serif;
+  }
+  
+  .container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  /* Responsive adjustments for smaller screens (max-width: 768px) */
+  
+  @media (max-width: 768px) {
+    .container {
+      width: 100%; /* Adjust container width to fill the screen */
+    }
+  
+    /* Adjust input field width to fit smaller screens */
+    .input-container-principal input {
+      width: calc(100% - 40px);
+    }
+  
+    /* Adjust button width to fit smaller screens */
+    .button-container-principal button {
+      width: 45%;
+    }
+  
+    /* Centralize label text for smaller screens */
+    .input-container-principal label {
+      text-align: center;
+    }
+  }
+  

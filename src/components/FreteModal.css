@@ -1,0 +1,89 @@
+/* FreteModalPage.css */
+
+.modal-principal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.modal-content-principal {
+  background: #fff;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  border-radius: 10px;
+  width: 100%;
+  max-width: 600px;
+  max-height: 500px;
+  margin: auto;
+}
+
+.modal-content-principal p {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 15px;
+  text-align: center; /* Centralizar o parágrafo */
+}
+
+.input-container-principal {
+  margin-bottom: 10px;
+}
+
+.input-container-principal label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.input-container-principal input {
+  padding: 8px;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  width: calc(100% - 16px);
+}
+
+.input-container-principal label {
+  display: block;
+  margin-bottom: 5px;
+  width: 100%;
+}
+
+.input-container-principal input[type="date"] {
+  width: 100%;
+}
+
+.input-container-principal input[type="text"] {
+  margin-right: 0;
+  width: 100%;
+}
+
+/* Estilos para os botões */
+.button-container-principal {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+
+.button-container-principal button {
+  background-color: #91BF4B;
+  color: #fff;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 48%;
+}
+
+/* Ajuste de altura para telas maiores */
+@media screen and (min-width: 768px) {
+  .modal-content-principal {
+    max-height: 120vh; /* Ou ajuste conforme necessário */
+  }
+}
+
