@@ -13,7 +13,7 @@ const Mapa = ({ dadosEnvio, setDadosEnvio, estadoAtual }) => {
   useEffect(() => {
     if (scriptAPI === false) {
       const script = document.createElement("script");
-      script.src = `https://maps.googleapis.com/maps/api/js?key=AIzaSyDGHMmoPL2pV5s0f723u2p9v5N2aKeIiHY&callback=initMap`;
+      script.src = `https://maps.googleapis.com/maps/api/js?key=AIzaSyAI8f1zMEi4ZaSUDNeXVhgPDtNaiKebhTg`;
       script.async = true;
       script.defer = true;
       script.onload = initMap;
