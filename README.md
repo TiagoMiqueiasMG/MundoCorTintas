@@ -1,5 +1,6 @@
 Entregas - Mundo Cor Tintas
-Análise e Desenvolvimento de Sistemas
+
+Projeto desenvolvido no curso de Análise e Desenvolvimento de Sistemas
 
 No competitivo cenário do comércio varejista, a eficiência operacional é um dos pilares fundamentais para o sucesso das empresas. A Mundo Cor Tintas Ltda, uma Sociedade Empresária Limitada com sede em Ribeirão das Neves – MG, atuante no segmento de comércio varejista de tintas e materiais para pintura, é um exemplo de organização que está sempre em busca de aprimorar seus processos e atender às demandas do mercado.
 
